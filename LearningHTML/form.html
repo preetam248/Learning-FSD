@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get" enctype="application/x-www-form-urlencoded">
+        <fieldset>
+            <legend>Sign up</legend>
+            <label for="myname">Name
+                <input type="text" id="myname" placeholder="Name" required>
+            </label>
+            <label for="email">Email Id
+                <input type="text" id="email" autocomplete="off">
+            </label>
+            <br>
+            <label for="password">Password
+                <input type="password" id="password">
+            </label>
+            <label for="age">Age
+                <input type="number" id="age">
+            </label>
+            <br>
+            <label for="">Programming Language</label>
+            <select>
+                <option value="java">java</option>
+                <option value="c++">c++</option>
+                <option value="python">python</option>
+            </select>
+
+            <details>
+                <summary>About</summary>
+                Lorem ipsum dolor, sit amet consectetur adipisi. Quam, tempora.
+            </details>
+            <details>
+                <summary>Home</summary>
+                Lorem ipsum dolor sit amet.
+            </details>
+            <label for="">Gender</label>
+            <label for="id1">
+                <input type="radio" value="Male" id="id1" name="gender">Male
+            </label>
+            <label for="id2">
+                <input type="radio" value="Female" id="id2" name="gender">Female
+            </label>
+            <br>
+            <label for="">Subject</label>
+            <label for="Bengali">
+                <input type="checkbox" value="Bengali" id="Bengali">Bengali
+            </label>
+            <label for="English">
+                <input type="checkbox" value="English" id="English">English
+            </label>
+            <label for="Math">
+                <input type="checkbox" value="Math" id="Math">Math
+            </label>
+            <br>
+            <textarea name="" id="" rows="4" cols="30" placeholder="put your valuable suggesion"></textarea>
+            <br>
+
+            <label for="volumeId">Volume</label>
+            <input type="range" id="volumeId" name="volume" min="0" max="100" step="10" >
+            
+            <label for="datePicker">Select a Date</label>
+            <input type="date" id="datePicker" name="datePicker">
+
+            <input type="image" id="image" alt="submit" src="https://t4.ftcdn.net/jpg/00/28/27/95/360_F_28279558_SqNXoZWsQLfWYVxyKe9hVzZ49dJtKLsc.jpg" width="100px">
+            
+            <input type="hidden" name="hidden" value="hidden value">
+
+            <input type="file" id="choosenFile" name="choosenFile">
+            
+            <label for="dateTimePicker">Select Date and Time</label>
+            <input type="datetime-local" id="dateTimePicker" name="dateTimePicker">
+            
+            <label for="colorPicker">Pick a Color</label>
+            <input type="color" id="colorPicker" name="colorPicker">
+
+            <input type="submit">
+            <button type="reset">Reset</button>
+
+        </fieldset>
+    </form>
+</body>
+</html>
