@@ -1,6 +1,37 @@
-body {
-    background-color: #212121;
-}
 h1 {
     color: blue;
+}
+.box{
+    text-align:center;
+    text-decoration:2px underline blue solid;
+    /* text-decoration-color: red; */
+    /* text-decoration-style:double; */
+    text-transform: capitalize;
+    font-size: 15px;
+    font-style:italic;
+    font-weight: bold;
+    font-weight: lighter;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.box1 {
+    height: 300px;
+    width: 400px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+    background-color: yellow;
+    /* background-image:url('https://picsum.photos/id/237/200/300');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    background-attachment:fixed; */
+    /* box-sizing: border-box; */
+    /* display: inline; */
+}
+
+.box2 {
+    width: 400px;
+    height: 300px;
+    background-color: aqua;
+    border: 2px solid black;
 }
