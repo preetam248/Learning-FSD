@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>Account Creation Form</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+
+    <form action="" method="post">
+        <header>
+            <h1>Create Account</h1>
+        </header>
+        <main>
+            <div class="box">
+                <div>
+                    <div class="box1">
+                        <div>
+                            <label for="firstName">First Name*</label><br>
+                            <input type="text" name="firstName" id="firstName" required>
+                        </div>
+        
+                        <div>
+                            <label for="lastName">Last Name</label><br>
+                            <input type="text" name="lastName" id="lastName">
+                        </div>
+                    </div>
+        
+                    <div>
+                        <div>
+                            <label for="email">Email*</label><br>
+                            <input type="email" name="email" id="email" style="width: 352px;" required>
+                        </div>
+                    </div>
+        
+                    <div class="box1">
+                        <div>
+                            <label for="pass">Password*</label><br>
+                            <input type="password" id="pass" name="pass" required>
+                        </div>
+        
+                        <div>
+                            <label for="repass">Confirm Password*</label><br>
+                            <input type="password" id="repass" name="repass" required>
+                        </div>
+                    </div>
+        
+                    <div class="box1">
+                        <div style="width: 166px;">
+                            <label for="">Gender:</label><br>
+                            <input type="radio" name="gender" id="male" value="male">
+                            <label for="male" style="color: black;">Male</label>
+                            <input type="radio" name="gender" id="female" value="female">
+                            <label for="female" style="color: black;">Female</label>
+                        </div>
+        
+                        <div>
+                            <label for="">Hobbies</label><br>
+                            <input type="checkbox" value="music" id="music">
+                            <label for="music" style="color: black;">Music</label>
+                            <input type="checkbox" value="sports" id="sports">
+                            <label for="sports" style="color: black;">Sports</label>
+                            <input type="checkbox" value="travel" id="travel">
+                            <label for="travel" style="color: black;">Travel</label>
+                            <input type="checkbox" value="movies" id="movies">
+                            <label for="movies" style="color: black;">Movies</label>
+                        </div>
+                    </div>
+        
+                    <div class="box1">
+                        <div>
+                            <label for="income_source">Source of Income</label><br>
+                            <input list="profession" id="income_source">
+                            <datalist id="profession">
+                                <option value="Employed"></option>
+                                <option value="Business"></option>
+                                <option value="Self-Employed"></option>
+                            </datalist>
+                        </div>
+        
+                        <div>
+                            <label for="income">Income</label><br>
+                            <input type="range" max="20000" step="1000" id="income" name="income">
+                            <button type="button" value="Above_20k" name="income">Above 20K</button>
+                        </div>
+                    </div>
+        
+                    <div class="box1">
+                        <div>
+                            <label for="age">Age</label><br>
+                            <input type="number" id="age" name="age" value="18" min="18">
+                        </div>
+                        <div>
+                            <label for="upload_pic">Upload Profile Picture</label><br>
+                            <input type="file" id="upload_pic" name="upload_pic">
+                        </div>
+        
+        
+        
+                    </div>
+                    <div>
+                        <div>
+                            <label for="bio">Bio</label><br>
+                            <textarea name="bio" id="bio" cols="50" rows="4"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </main>
+
+        <footer>
+
+            <button type="reset" class="create">Reset</button>
+            <button type="submit" class="create">Create</button>
+        </footer>
+    </form>
+
+</body>
+
+</html>

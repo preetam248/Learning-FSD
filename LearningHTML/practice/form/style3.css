@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+header{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    color: rgb(83, 83, 83);
+    font-family:monospace;
+}
+label{
+    color:darkturquoise;
+    font-family: monospace;
+    font-weight: bold;
+}
+div{
+    margin: 10px;
+}
+button{
+    background-color: darkturquoise;
+    border: none;
+    border-radius: 3px;
+    height: 25px;
+}
+footer{
+    background-color: aliceblue;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.create{
+    width: 100px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+.box1{
+    display: flex;
+}
