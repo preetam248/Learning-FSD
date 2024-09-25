@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            max-width: 500px;
+            padding: 10px;
+            margin: 0 auto;
+            background-color: #212121;
+        }
+
+        h1 {
+            text-align: center;
+            color: cadetblue;
+        }
+
+        .mainbox {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        label {
+            display: block;
+            color: darkcyan;
+        }
+
+        .mainbox .box {
+            width: 48%;
+        }
+
+        input[type=text],
+        input[type=email],
+        input[type=number],
+        input[type=password],
+        textarea {
+            width: 100%;
+            background-color:darkgrey;
+            border: 1px solid whitesmoke;
+            border-radius: 2px;
+            color: black;
+        }
+        .but{
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            gap:20px;
+        }
+        button{
+            background-color: cadetblue;
+        }
+        .inline-ele input{
+            display: inline;
+        }
+        .inline-ele label{
+            display: inline;
+        }
+        #profession{
+            width: 100%;
+            background-color: darkgrey;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Create Account</h1>
+    <form action="" method="post">
+        <div class="mainbox">
+            <div class="box">
+                <label for="firstname">First Name*</label>
+                <input type="text" id="firstname" name="firstname" required>
+            </div>
+            <div class="box">
+                <label for="lastname">Last Name*</label>
+                <input type="text" id="lastname" name="lastname" required>
+            </div>
+        </div>
+        <div>
+            <label for="email">Email*</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div class="mainbox">
+            <div class="box">
+                <label for="phn">Phone number</label>
+                <input type="number" name="phn" id="phn">
+            </div>
+            <div class="box">
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age" value="18" min="18" max="120">
+            </div>
+        </div>
+        <div>
+            <label for="add">Address</label>
+            <textarea name="add" id="add"></textarea>
+        </div>
+        <div class="mainbox">
+            <div class="box">
+                <label>Gender:</label>
+                <div class="inline-ele">
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+                </div>
+            </div>
+            <div class="box">
+                <label for="profession">Profession</label>
+                <select name="profession" id="profession">
+                    <option value="student">Student</option>
+                    <option value="unemployed">Unemployed</option>
+                    <option value="employed">Employed</option>
+
+                </select>
+            </div>
+        </div>
+        
+        <div class="mainbox">
+            <div class="box">
+                <label for="pass">Password*</label>
+                <input type="password" name="pass" id="pass" required>
+            </div>
+            <div class="box">
+                <label for="conf_pass">Confirm Password*</label>
+                <input type="password" name="pass" id="pass" required>
+            </div>
+        </div>
+
+        <div class="but">
+            <button type="reset">Reset</button>
+            <button type="submit">Create</button>
+        </div>
+        
+    </form>
+
+</body>
+
+</html>
