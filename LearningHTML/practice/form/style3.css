@@ -3,9 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    height: 100vh;
-}
 header{
     background-color: aliceblue;
     text-align: center;
@@ -37,10 +34,6 @@ footer{
 
 .create{
     width: 100px;
-}
-.box{
-    display: flex;
-    justify-content: center;
 }
 .box1{
     display: flex;
