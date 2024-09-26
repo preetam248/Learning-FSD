@@ -1,0 +1,39 @@
+/* for block card */
+
+.card{
+    background-color: lightblue;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px  black;
+}
+
+/* For elements/components */
+
+.card__heading {
+    font-size: 35px;
+    color: darkblue;
+}
+
+.card__paragraph {
+    color: blue;
+    font-size: 20px;
+}
+
+.card__button {
+    background-color: darkblue;
+    color: azure;
+    border: 1px solid ;
+    border-radius: 5px;
+}
+
+/* For modifiers */
+
+.card--highlight{
+    background-color: yellow;
+}
+
+.card__button--highlight {
+    background-color: yellowgreen;
+}
