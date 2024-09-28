@@ -12,6 +12,7 @@ html,body {
     background-color: aliceblue;
     border-radius: 5px;
     box-shadow: 0 2px 4px ;
+    transition-duration: 0.5s;
 }
 .card__line{
     background-color: darkblue;
@@ -33,17 +34,17 @@ html,body {
     width: 150px;
 }
 
-h2,h3,h4 {
+.card__elements__label > h2, .card__elements__label > h3, .card__elements__label > h4 {
     margin: 8px;
 }
-h2{
+.card__elements__label > h2{
     color: darkblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-h3 {
+.card__elements__label > h3 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-h4{
+.card__elements__label > h4{
     font-weight: 100px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:cornflowerblue;
@@ -54,4 +55,9 @@ h4{
     margin: 8px;
     display: flex;
     justify-content: space-around;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
 }
