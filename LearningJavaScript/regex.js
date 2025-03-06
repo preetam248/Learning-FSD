@@ -12,6 +12,9 @@ let str = "preetamdas248@gmail.com"
 
 // let pattern = new RegExp("das");
 
+// The test() method tests for a match in a string.
+// If it finds a match, it returns true, otherwise it returns false.
+
 // let result = pattern.test(str)
 // console.log(result)
 
